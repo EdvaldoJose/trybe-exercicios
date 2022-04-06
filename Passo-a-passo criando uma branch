@@ -8,7 +8,7 @@
  mkdir dia-04-html-semantico (cria o diretório)
  cd dia-04-html-semantico (entra no diretório)
  git status
- On branch exercicios/3.4 (confirma branch)
+ git branch (confirma branch exercicios/3.4)
 $ git add caminhoParaArquivo (usa: nome ou . ou .. ou --all)
 $ git commit -m "Mensagem descrevendo alterações"
 $ git log
@@ -19,4 +19,5 @@ $ git push -u origin exercicios/3.4
 $ git push
 #Caso você queria sincronizar com o remoto, poderá utilizar apenas
 $ git pull
+
 Fim do processo.
