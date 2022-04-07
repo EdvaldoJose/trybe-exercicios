@@ -226,12 +226,12 @@ else if (segundoNumber > primeiroNumber && segundoNumber > terceiroNumber) {
 }
 
 // ex-4
-const valor = 3;
+const valor = -2;
 
 if (valor + valor) {
     console.log("positivo");
 }
-else if (valor - valor - valor) {
+else if (valor - valor) {
     console.log("negativo");
 } 
 else if (valor % valor) {
