@@ -28,9 +28,16 @@ for(let index = 0; index < jogoDaMega.length; index++) {
     console.log("Edvaldo: " + jogoDaMega[index]);
 }
 for(let index2 = 0; index2 < numerosMegasena.length; index2++) {
-    console.log("Megasena: " + numerosMegasena[index2]);
-
+    //console.log("Megasena: " + numerosMegasena[index2]);
+if(jogoDaMega[index2] === numeroDaMega){
+    acertos += 1;
 }
+}
+console.log(" Edvaldo acertou: " + acertos');
+    if(acertos == 6){
+        console.log("Fiquei rico");
+    }
+
 
 //se ganhar comemorar
 
