@@ -177,3 +177,67 @@ switch (resultado) {
 default:
     console.log("não se aplica")
 }
+// ex-1 javaScript - primeiros passos.
+const a = 5;
+const b = 7;
+console.log(a + b);
+
+const a = 2;
+const b = 1;
+console.log(a - b);
+
+const a = 4;
+const b = 3;
+console.log(a * b);
+
+const a = 15;
+const b = 3;
+console.log(a / b);
+
+const a = 25;
+const b = 3;
+console.log(a % b);
+
+const a = 50;
+const b = 3;
+
+// ex-2
+const primeiroNumber = 20;
+const segundoNumber = 30;
+
+if (primeiroNumber > segundoNumber) {
+    console.log("primeiroNumber");    
+} else {
+    console.log("segundoNumber");
+}
+
+// ex-3
+const primeiroNumber = 25;
+const segundoNumber = 30;
+const terceiroNumber = 40;
+
+if (primeiroNumber > segundoNumber && primeiroNumber > terceiroNumber) {
+    console.log("primeiroNumber");
+}
+else if (segundoNumber > primeiroNumber && segundoNumber > terceiroNumber) {
+    console.log("segundoNumber");
+} else {
+    console.log("terceiroNumber");
+}
+
+// ex-4
+const valor = 3;
+
+if (valor + valor) {
+    console.log("positivo");
+}
+else if (valor - valor - valor) {
+    console.log("negativo");
+} 
+else if (valor % valor) {
+    console.log("zero")
+}
+
+
+
+
