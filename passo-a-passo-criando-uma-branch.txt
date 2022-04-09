@@ -19,5 +19,5 @@ $ git push -u origin exercicios/3.4
 $ git push
 #Caso você queria sincronizar com o remoto, poderá utilizar apenas
 $ git pull
-
+ code . aula3.4.js index.html style.css
 Fim do processo.

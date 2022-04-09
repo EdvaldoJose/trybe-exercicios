@@ -15,7 +15,7 @@ let numero6 = 33;
 //ou cria uma array
 let numerosMegasena = [7,16,44,25,28,33];
 let numerosMegasena = [];
-numerosMegasena.push(7,16,44,25,28,33);
+numerosMegasena.push(7,16,44,25,28,33);c
 
 //conferir o sorteio da caixa
 usa dois for(ninicialização; condição; incremento/decremento para o jogo e o resultado)*/
@@ -28,18 +28,9 @@ for(let index = 0; index < jogoDaMega.length; index++) {
     console.log("Edvaldo: " + jogoDaMega[index]);
 }
 for(let index2 = 0; index2 < numerosMegasena.length; index2++) {
-    //console.log("Megasena: " + numerosMegasena[index2]);
-if(jogoDaMega[index2] === numeroDaMega){
-    acertos += 1;
-}
-}
-console.log(" Edvaldo acertou: " + acertos');
-    if(acertos == 6){
-        console.log("Fiquei rico");
-    }
+    console.log("Megasena: " + numerosMegasena[index2]);
 
-
-//se ganhar comemorar
+}
 
 
 
