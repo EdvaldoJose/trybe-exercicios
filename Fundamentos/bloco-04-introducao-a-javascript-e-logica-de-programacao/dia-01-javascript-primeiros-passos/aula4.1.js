@@ -1,4 +1,4 @@
-/*console.log('O JS é supimpa!');
+console.log('O JS é supimpa!');
 //Tipos primitivos
 let cohort = 22; //number
 let company = 'Trybe'; //string
@@ -86,7 +86,7 @@ const conditionTwo = false;
 
     console.log(conditionOne && conditionTwo);
 
- /* exercícios Op/Log - tirar essa dúvida com Nat?  
+// exercícios Op/Log - tirar essa dúvida com Nat?  
 const cenouras = true;
 const leite = true;
 const arroz = true;
