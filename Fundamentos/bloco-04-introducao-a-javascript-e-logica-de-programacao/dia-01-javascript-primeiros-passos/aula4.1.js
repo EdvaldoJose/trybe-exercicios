@@ -63,11 +63,9 @@ const nota = 50;
 
 if (nota == 80) {
     console.log('Parabéns, você foi aprovado!')
-}
-else if (nota < 80 && nota >= 60) {
+} else if (nota < 80 && nota >= 60) {
     console.log('Você está na nossa lista de espera')
-}
-else if (nota < 60) {
+} else if (nota < 60) {
     console.log('Você foi reprovado, "Estude mais!"')
 }
 
@@ -76,17 +74,16 @@ const bebida = 'cafezinho';
 
 if (bebida == 'cafezinho' && comida == 'pão na chapa') {
     console.log('Muito obrigado pela refeição');
-}
-else {
+} else {
     console.log('Acho que houve um engano com o meu pedido');
 }
 
 const conditionOne = true;
 const conditionTwo = false;
 
-    console.log(conditionOne && conditionTwo);
+console.log(conditionOne && conditionTwo);
 
- /* exercícios Op/Log - tirar essa dúvida com Nat?  
+//exercícios Op/Log - tirar essa dúvida com Nat?  
 const cenouras = true;
 const leite = true;
 const arroz = true;
@@ -118,7 +115,7 @@ else if (horario == 11 && horario == 14) {
 else if (horario == 4 && horario == 11) {
     message = 'Hmmm cheiro de café recém passado';
 }
-*/
+
 const bebidaPrincipal = 'cafezinho';
 const bebidaAlternativa = 'suco de laranja';
 
@@ -137,8 +134,8 @@ if (weekDay === 'segunda-feira' || weekDay === 'terça-feira' || weekDay === 'qu
 }
 
 console.log((2 + 2) === 4);
-console.log(!(2 +2) === 4);
-    
+console.log(!(2 + 2) === 4);
+
 const squirtle = "melhor pokemon inicial";
 
 console.log(!squirtle); // false
@@ -167,15 +164,15 @@ let resultado = "aprovado";
 switch (resultado) {
     case "aprovado":
         console.log("Você passou no processo seletiva da trybe");
-    break;
+        break;
     case "lista":
         console.log("Você entrou para nossa lista de cadastro reserva");
-    break;
+        break;
     case "reprovado":
         console.log("Você foi reprovado no processo seletivo da trybe");
-    break;
-default:
-    console.log("não se aplica")
+        break;
+    default:
+        console.log("não se aplica")
 }
 // ex-1 javaScript - primeiros passos.
 const a = 5;
@@ -206,7 +203,7 @@ const primeiroNumber = 20;
 const segundoNumber = 30;
 
 if (primeiroNumber > segundoNumber) {
-    console.log("primeiroNumber");    
+    console.log("primeiroNumber");
 } else {
     console.log("segundoNumber");
 }
@@ -218,8 +215,7 @@ const terceiroNumber = 40;
 
 if (primeiroNumber > segundoNumber && primeiroNumber > terceiroNumber) {
     console.log("primeiroNumber");
-}
-else if (segundoNumber > primeiroNumber && segundoNumber > terceiroNumber) {
+} else if (segundoNumber > primeiroNumber && segundoNumber > terceiroNumber) {
     console.log("segundoNumber");
 } else {
     console.log("terceiroNumber");
@@ -230,14 +226,125 @@ const valor = -2;
 
 if (valor + valor) {
     console.log("positivo");
-}
-else if (valor - valor) {
+} else if (valor - valor) {
     console.log("negativo");
-} 
-else if (valor % valor) {
+} else if (valor % valor) {
     console.log("zero")
 }
 
+const myName = "Edvaldo";
+const birthCity = "Salvador";
+let birthYear = "1972";
+console.log(myName, birthCity, birthYear);
+
+birthYear = "2030";
+console.log(birthYear);
+
+birthCity = "Recife";
+console.log(birthCity);
+
+let movie = 'Averngers'; // tipo string
+let score = 10.90; // tipo namber
+let isValid = true; // tipo boolean
+let name; // tipo undefined
+let color = null; // tipo null
+
+// ex-
+
+let patientId = 50;
+let insEnrolled = true;
+const patientInfo = {
+    firstName: 'Ana',
+    lastName: 'Santos',
+};
+const patientEmail = 'ana@email.com';
+console.log(patientId, insEnrolled, patientInfo.firstName, patientInfo.lastName);
+
+const base = 5;
+let height = 8;
+const area = base * height;
+// console.log(area);
+
+const perimeter = area + base + height;
+console.log(perimeter);
+
+// if/else 
+
+let trybe = 16;
+
+if (trybe >= 14 && trybe < 14.30) {
+    console.log('Esquenta');
+} else if (trybe >= 16.30 && trybe < 17.50) {
+    console.log('Aula ao vivo');
+} else if (trybe >= 19.40 && trybe < 20.10) {
+    console.log('Fechamento');
+} else {
+    console.log('Fora dos momentos sícronos');
+}
+
+// exercícios
+
+const nota = 60;
+
+if (nota >= 80) {
+    console.log('Parabéns, você foi aprovada');
+} else if (nota < 80 && nota >= 60) {
+    console.log('Você está na nossa lista de espera');
+} else {
+    console.log('Você foi reprovado');
+}
+
+// && || ! operadores lógicos
+
+const comida = 'pão na chapa';
+const bebida = 'cafezinho';
+
+if (bebida === 'cafezinho' && comida === 'pão na chapa') {
+    console.log('Muito obrigado pela refeição');
+} else {
+    console.log('Acho que houve um engano');
+}
+
+// exercícios
+
+const correntHour = 5;
+let mensagem = '';
+
+if (correntHour >= 22) {
+    mensagem = 'Não deveriamos comer nada, é hora de dormir';
+
+} else if (correntHour >= 18 && correntHour <= 22) {
+    mensagem = 'Rnago da noite, vamos jantar :D';
+
+} else if (correntHour >= 14 && correntHour < 18) {
+    mensagem = 'Vamos fazer um bolo pro café da tarde?';
+
+} else if (correntHour >= 11 && correntHour <= 14) {
+    mensagem = 'Hora do almoço';
+
+} else if (correntHour >= 4 && correntHour <= 11) {
+    mensagem = 'Hum cheiro de café recem passado';
+}
+console.log(mensagem);
 
 
+const comida = 'suco de laranja';
+const bebida = 'cafezinho';
+
+if (bebida === 'cafezinho' || comida === 'suco de laranja') {
+    console.log('Muito obrigado por me atender');
+} else {
+    console.log('Acho que houve um engano');
+}
+
+console.log(!(2 + 2) === 4); //false
+console.log((2 + 2) === 4); //true
+console.log(!0); //true
+console.log(!42); //false
+console.log(!null); //true
+console.log(!undefined); //true
+
+const squirtle = 'melhor pokemon inicial';
+console.log(squirtle); //true
+console.log(!squirtle); //false
 
