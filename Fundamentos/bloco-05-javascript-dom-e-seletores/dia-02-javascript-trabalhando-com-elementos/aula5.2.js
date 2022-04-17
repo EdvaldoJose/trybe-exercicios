@@ -18,8 +18,17 @@ function resultado(boolean) {
 }
 console.log(resultado(30, 20));
 
+function testeNumber(numero) {
+    let elementoMaisDois = [];
+    for (let index = 0; index < numero.length; index++) {
+        elementoMaisDois.push(numero[index] * 2);
+        
+    }
+    console.log(elementoMaisDois);
+}
+testeNumber([1,2,3,4,5,6,7,8,9,10]);
 
-function numImpar(arr) {
+'unction numImpar(arr) {
 
     let sumOdds = 0;
 
@@ -120,6 +129,19 @@ aluno.nome = 'edvaldo josé' // altera o nome
 aluno.sexo = {} // cria uma novo objeeto
 
 console.log(aluno);
+
+let obj = {
+    name: 'Edvaldo',
+}
+
+console.log(obj);
+
+let obj2 = {
+    nome: 'edvaldojose',
+    log: () => console.log('lá mundo!')
+};
+obj2.log();
+console.log(obj2);
 
 
 
