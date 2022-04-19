@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Trybe DOM</title>
+</head>
+<body>
+ 
+<!-- addEventList -->
+
+    <p id="trybe">
+        Vamos aprender a usar os evenntos?
+    </p>
+
+    <p id="clicar">Paragrafo para ser clicado</p>
+
+    <div>
+        <button id="mouse-over-leave">Botão para ter o mouse passado encima e removiddo</button>
+    </div>
+    <script>
+        //Exemplo 1 - click 
+        let clickP = document.getElementById("clicar");
+
+        //Adiciona o evento click
+        clickP.addEventListener("click", recebeClick);
+
+        function recebeClick(eventoDeOrigem) {
+            //Objeto do evento com as duas propriedades;
+            //target: o elemennto quue originou esse mesmo evento.
+            //type: o tipo ddo evento que originou o click - mouse, teclado, screen.
+            console.log(eventoDeOrigem.target);
+            console.log(eventoDeOrigem.type);
+        }
+
+        //Exemplo 2 - Mouse over, mouse leave
+        let mouseOverLeaveButton = document.getElementById("mouse-over-leave");
+
+        //Adiciona o evento do mouse over
+        mouseOverLeaveButton.addEventListener("mouseover", mouseEmCima);
+
+        //Adiciona o evento do mouse leave
+        mouseOverLeaveButton.addEventListener("mouseleave", mouseSaiuDoElemento);
+
+        function mouseEmCima(evento) {
+        console.log("Mouse passou por cima");
+        console.log(evento.target);
+        }
+
+        function mouseSaiuDoElemento() {
+            console.log("Mouse saiu do elemento");
+        }
+
+    </script>
+
+
+<!-- eventos em JavaScript -->
+
+    <p id="trybe">
+   Olá, somos a Trybe e temos uma oferta imperdível para você... 
+   </p>
+
+   <button onclick="maisInfos();">Mais Informações</button>
+
+   <p id="trybe-continua"></p>
+   <script>
+       window.onload = jsCarregado
+
+       function jsCarregado() {
+           alert("Página foi carregada")
+       }
+
+       function maisInfos() {
+           let textoMaisInfo = document.getElementById("trybe-continua");
+           textoMaisInfo.innerText = "Aqui você vai aprender Hard Skill, Soft Skill e várias outras habilidades!";
+       }
+
+        window.onload = pizzaPronta
+
+        alert("Pedido da pizza");
+
+        function pizzaPronta() {
+            alert("Tocou a campanhia");
+            alert("Paguei a pizza");
+            alert("Recebi a pizza");
+        }
+   
+    </script>
+
+
+</body>
+</html>
