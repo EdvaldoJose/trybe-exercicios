@@ -1,0 +1,16 @@
+--------------------------------------------------
+Baixar as aulas do dia do git hub remoto.
+--------------------------------------------------
+Se não clonou o repositório:
+git clone git@github.com:tryber/sd-022-a-live-lectures.git
+------------------------------------------------------------
+
+Para procurar os exercícios no git hub:
+https://github.com/tryber/sd-022-a-live-lectures/blob/main/README.md
+Opção: Pull requests
+-----------------------------------------------------------------------
+
+Para baixa para o repositório local:
+/repositorio-trybe/sd-022-a-live-lectures$
+git pull
+git checkout lecture/6.1x
