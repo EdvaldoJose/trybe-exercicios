@@ -1,0 +1,54 @@
+/* reset padrão da página usando esse cabeçalho*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+.speaker-form-header h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.speaker-form {
+  background-color: rgb(246, 247, 248);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 3px;
+  width: 80%;
+  margin: 40px auto;
+  padding: 50px;
+}
+
+.form-row label {
+  margin-bottom: 15px;
+}
+
+fieldset {
+  padding: 10px;
+}
+
+.form-row input[type="radio"] {
+  margin-left: 10px;
+}
+
+.from-row textarea {
+  width: 100%;
+  height: 70%;
+  padding: 15px;
+}
+
+.form-row .instructions {
+  font-size: 0.8;
+  font-style: italic;
+}
+
+.form-row input {
+  background-color: white;
+  border: 1px solid rgb(214, 217, 220);
+}
+
+.form-row button {
+  padding: 7px 15px;
+}
+
+
