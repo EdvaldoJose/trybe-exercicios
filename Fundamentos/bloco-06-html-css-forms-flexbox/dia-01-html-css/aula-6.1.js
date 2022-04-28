@@ -1,5 +1,5 @@
 const camiseta = document.getElementById('t-shirt');
-const tamanhos = ['PP', 'P', 'M', 'G', 'GG', 'XG'];
+const tamanhos = ['PP', 'P', 'M', 'G', 'GG', 'XG', 'XGG'];
 
 for (let tamanho of tamanhos){
   const opt = document.createElement('option'); 
