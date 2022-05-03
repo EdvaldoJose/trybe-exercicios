@@ -1,0 +1,45 @@
+#tabuleiro {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 180px;
+}
+
+.div-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  height: 50px;
+  margin: 2px;
+  width: 50px;
+  color: white;
+  font-size: 30px;
+  
+}
+
+body {
+  background-color: rgb(110, 110, 246);
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  margin: 15px;
+}
+
+#buttons {
+  margin-bottom: center;
+  margin-left: 72px;
+}
+
+#reset {
+  margin-bottom: center;
+  margin-left: 38px;
+}
+
+.mensagem {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px;
+  color: white;
+}

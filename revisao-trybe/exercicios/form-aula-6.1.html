@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form-aula-6.1</title>
+  <link rel="stylesheet" href="form-aula-6.1.css">
+</head>
+<body>
+  <header>
+    <h1>Submeter Palestra</h1>
+    <p><em>Quer palestrar na nossa conferência? Preencha o formulário abaixo.</em></p>
+  </header>
+  <main>
+    <form class="speaker-form" action="" method="get">
+      <div class="form-row">
+        <label for="fullName">Nome:</label>
+        <input type="text" name="full-name" id="full-name">
+      </div>
+      <br>
+      <div class="line-content">
+        <fieldset>
+          <legend>Tipo de palestra</legend>
+            <input type="radio" name="talk-type" id="talk-type-1" value="main-stage">
+              <label for="talk-type-1">Palco principal</label>
+                <input type="radio" name="talk-type" id="talk-type-2" value="main-stage">
+                  <label for="talk-type-2">Workshop</label><br>
+                <input type="radio" name="talk-type" id="talk-type-3" value="main-stage">
+              <label for="talk-type-3">Novas tecnologias</label>
+            <input type="radio" name="talk-type" id="talk-type-3" value="main-stage">
+          <label for="talk-type-3">IE inovações</label>
+        </fieldset> 
+      </div>
+      <br>
+      <div class="line-content">
+        <label for="t-shirt">Tamanho da camiseta:</label>
+        <select id="t-shirt" name="t-shirt"></select>
+      </div>
+      <br>
+      <div class="line-content">
+        <label for="abstract">Resumo da palestra:</label><br>
+        <textarea name="abstract" id="abstract" cols="42" rows="10"placeholder="Digite aqui."></textarea>
+        <div class="instructions">Descreva sua palestra em até 500 palavaras.</div>
+      </div><br>
+      <div class="line-content">
+          <button type="submit" id="">Enviar</button>
+        </div>
+      </form>
+    </main>
+  <script src="form-aula-6.1.js"></script>
+</body>
+</html>

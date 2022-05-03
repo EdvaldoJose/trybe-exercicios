@@ -1,0 +1,19 @@
+
+p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+h1 {
+    color: red;
+    font-size: 2em;
+}
+body {
+    font-size: 20px;
+    color:  green;
+}
+
+
