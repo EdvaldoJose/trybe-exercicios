@@ -1,6 +1,6 @@
 # Olá eu me chamo edvaldojose.
 
-# Olá eu me chamo edvaldojose sou estutando de tecnologia em Desnvolvimento Web na Trybe.
+# Sou estutando de tecnologia em Desnvolvimento Web na Trybe.
 Repositório do meu portfólio.
 
 <div align="center">
